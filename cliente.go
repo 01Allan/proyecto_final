@@ -12,7 +12,7 @@ func client()  {
 		return
 	}
 	// m1:  mensaje 1
-	m1 := "Te amo mucho Lucía, aunque ya no estemos juntos, y no podas leer esto :("
+	m1 := "no se que ondas jaja"
 	fmt.Println(m1)
 	c.Write([]byte(m1))
 	c.Close()
